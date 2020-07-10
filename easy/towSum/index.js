@@ -14,10 +14,8 @@ function twoSum(nums, target) {
   for (let i = 0; i < nums.length; i++) {
     map[nums[i]] = i;
   }
-  console.log(map);
   for (let i = 0; i < nums.length; i++) {
     let elem = target - nums[i];
-    console.log(elem);
     if (map[elem] && map[elem] !== i) {
       return [i, map[elem]];
     }

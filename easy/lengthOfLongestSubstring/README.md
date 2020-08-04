@@ -26,5 +26,6 @@
 ```
 
 ## 思路
+使用「滑动窗口」来解决
 
 [传送门](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
